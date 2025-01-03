@@ -1,0 +1,254 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    color: #8b8780;
+}
+p{
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.heading-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #cec6be;
+}
+
+.heading-image {
+    width: 300px;
+    height: 400px;
+    margin-left: 100px; 
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.highlight {
+    color: #110e0a; 
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.highlight2 {
+    color: #3498db; 
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 20px;
+    padding: 20px;
+}
+
+.image-container {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+}
+
+.middle-content {
+    flex: 2;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-flex {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+.dotted-boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted #3498db;
+}
+
+.description {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px; 
+    flex: 1;
+}
+
+.view-product-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.view-product-btn:hover {
+    background-color: #2980b9;
+}
+.container1{
+    background-color: #cccac8;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 50px;
+    padding: 20px;
+}
+h1{
+    color: #000;
+}
+ container1 img {
+    float:right ;
+}
+.container2{
+    width: 1200px;
+    height: 1200px;
+    border: dotted ;
+    background-color: #cccac8;
+    margin: 20px;
+    padding: 20px;
+}
+h4{
+    color: #2980b9;
+    font-size: 30px;
+}
+p{
+    color: #000;
+    font-size: 20px;
+}
+.container3{
+    margin: 20px;
+    padding: 20px;
+}
+.container4{
+    margin: 20px;
+    padding: 20px;
+}
+.container5 {
+    background-color: #cccac8;
+    margin: 10px;
+    padding: 10px;
+}
+ h5{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.image-row {
+    display: flex; 
+    justify-content: space-between;  
+    width: 80%; 
+    max-width: 500px; 
+    gap: 30px;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.product-image {
+    width: 300px; 
+    height: 300px; 
+    margin-bottom: 10px;
+    object-fit: cover; 
+}
+
+.shop-now-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; 
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background-color: #2980b9;
+}
+h6{
+    color: #3498db;
+    font-size: 40px;
+}
+h7{
+    color: #e92164;
+    font-size: 50px;
+}
+.box-container {
+    display: flex;
+    gap: 10px; 
+}
+
+.hortizontalbox {
+    font-size: 30px;
+    width: 100px; 
+    height: 300px; 
+    border-radius: 10px ; 
+    border: #080808;
+}
+.container6{
+    background-color: #cccac8;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.container6 img {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.alert{
+    width: 100px;
+    background-color: #1dc267;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
